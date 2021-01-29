@@ -31,15 +31,15 @@ public class FindBtn : MonoBehaviour
         
         
         Debug.Log(_textWord);
-        if (_boxText.text == "Unity" || _boxText.text == "Unreal"|| _boxText.text == "Google"|| _boxText.text == "ResidentEvil" || _boxText.text == "MongoDB")
+        if (_boxText.text == "Dota2" || _boxText.text == "ROV"|| _boxText.text == "LOL"|| _boxText.text == "ResidentEvil" || _boxText.text == "Ragnarok")
         {
-             _text.color= Color.green;
-            _text.text = "[ " + _textWord + " ] is found";
+             //_text.color= Color.green;
+            _text.text = "[ <color=green>" + _textWord + "</color> ] is found";
         }
         else 
         {
-            _text.color = Color.red;
-            _text.text = "[ " + _textWord + " ] is not found";
+            //_text.color = Color.red;
+            _text.text = "[ <color=red>" + _textWord + "</color> ] is not found";
         }
 
 
